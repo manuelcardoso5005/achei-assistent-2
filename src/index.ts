@@ -63,7 +63,6 @@ app.post('/message', async (req: Request, res: Response): Promise<void> => {
     }
 })
 
-app.listen(3001, async () => {
-
+app.listen(3001, async () => { 
     console.log('Server is running on port 3000');
 })
